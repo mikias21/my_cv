@@ -10,9 +10,9 @@ import Education from "../Education/Education";
 // Css
 import "./ColumnOne.css";
 
-const ColumnOne = () => {
+const ColumnOne = ({ className }) => {
   return (
-    <div className="col1">
+    <div className={`col1 ${className}`}>
       {/* Name */}
       <div className="col1_name_contact_container">
         <div className="col1_name">

@@ -8,8 +8,8 @@ import "./App.css";
 function App() {
   return (
     <div className="app">
-      <ColumnOne />
-      <ColumnTwo />
+      <ColumnOne className="col1_app" />
+      <ColumnTwo className="col2_app" />
     </div>
   );
 }

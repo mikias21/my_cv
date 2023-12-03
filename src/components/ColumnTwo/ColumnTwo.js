@@ -4,9 +4,9 @@ import { AiFillExperiment } from "react-icons/ai";
 
 import "./ColumnTwo.css";
 
-const ColumnTwo = () => {
+const ColumnTwo = ({ className }) => {
   return (
-    <div className="col2">
+    <div className={`col2 ${className}`}>
       <div className="col2_main_skills">
         <div className="col2_main_skills_title_set">
           <AiFillExperiment className="col2_main_skills_icon" />
