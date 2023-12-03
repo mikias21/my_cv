@@ -22,20 +22,28 @@ const ColumnOne = () => {
           <div className="col1_contact_info_p1">
             <ul>
               <li>
-                <p>Email: hello@email.com</p>
+                <p>
+                  <small>Email: hello@email.com</small>
+                </p>
               </li>
               <li>
-                <p>Check out my Linkedin</p>
+                <p>
+                  <small>Check out my Linkedin</small>
+                </p>
               </li>
             </ul>
           </div>
           <div className="col1_contact_info_p2">
             <ul>
               <li>
-                <p>Check out my Github</p>
+                <p>
+                  <small>Check out my Github</small>
+                </p>
               </li>
               <li>
-                <p>Check out my Portiflio</p>
+                <p>
+                  <small>Check out my Portiflio</small>
+                </p>
               </li>
             </ul>
           </div>
