@@ -15,27 +15,32 @@ const ColumnTwo = ({ className }) => {
         <div className="col2_main_skills_content">
           <div className="col2_main_skills_subcontent">
             <p>Programming Languages</p>
-            <p>Javascsript ECMA6+, NodeJS, Python, Java</p>
+            <p>Javascsript ECMA6+, NodeJS, Python (Primary), PHP, Java</p>
           </div>
           <div className="col2_main_skills_subcontent">
-            <p>Programming Languages</p>
-            <p>Javascsript ECMA6+, NodeJS, Python, Java</p>
+            <p>DevOps</p>
+            <p>AWS, Docker</p>
           </div>
           <div className="col2_main_skills_subcontent">
-            <p>Programming Languages</p>
-            <p>Javascsript ECMA6+, NodeJS, Python, Java</p>
+            <p>Database</p>
+            <p>SQL, Postgresql, Mongo DB, Sqlite</p>
           </div>
           <div className="col2_main_skills_subcontent">
-            <p>Programming Languages</p>
-            <p>Javascsript ECMA6+, NodeJS, Python, Java</p>
+            <p>Web Stack</p>
+            <p>
+              React, Redux, Context, Next JS, Tailwind, fastapi, flask, netlify,
+              render, React Native
+            </p>
           </div>
           <div className="col2_main_skills_subcontent">
-            <p>Programming Languages</p>
-            <p>Javascsript ECMA6+, NodeJS, Python, Java</p>
+            <p>Pentesting and Security</p>
+            <p>
+              WebApp testing, API testing, Network Pentesting, Cloud security
+            </p>
           </div>
           <div className="col2_main_skills_subcontent skills_last">
-            <p>Programming Languages</p>
-            <p>Javascsript ECMA6+, NodeJS, Python, Java</p>
+            <p>Additional Skills</p>
+            <p>Machine Learning, Infrastructure Managment, Active Directory</p>
           </div>
         </div>
       </div>
@@ -46,25 +51,39 @@ const ColumnTwo = ({ className }) => {
         </div>
         <div className="col2_personal_projects_content">
           <div className="col2_personal_projects_subcontent">
-            <p>My DURP</p>
+            <p>Predict</p>
             <p className="col2_personal_projects_link">
-              <small>https:helloworld.com</small>
+              <small>https://github.com/mikias21/predict</small>
             </p>
             <ul>
-              <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-              <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-              <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+              <li>Made for prototyping Machine Learning models. .</li>
+              <li>
+                Used for making Regression, Classification and Neural Networks.
+              </li>
+              <li>
+                Used for making Regression, Classification and Neural Networks
+              </li>
+              <li>
+                Developed using Python, Flask, Sqlite3, Javascript, sci-kit
+                library, numpy, Pandas
+              </li>
             </ul>
           </div>
           <div className="col2_personal_projects_subcontent project_last">
-            <p>My DURP</p>
+            <p>XSSVIS</p>
             <p className="col2_personal_projects_link">
-              <small>https:helloworld.com</small>
+              <small>https://github.com/mikias21/XSSVIS_MAIN</small>
             </p>
             <ul>
-              <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-              <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
-              <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+              <li>
+                Deep learning model for detection XSS attacks on web
+                applications.
+              </li>
+              <li>
+                By combining the power of computer vision and deep learning
+                model web traffic anomaly detection.
+              </li>
+              <li>Python, tensorflow, pandas, numpy</li>
             </ul>
           </div>
         </div>
@@ -77,17 +96,17 @@ const ColumnTwo = ({ className }) => {
         <div className="col2_certificates_content">
           <div className="col2_certificates_subcontent">
             <p className="col2_certificates_date">
-              <small>2015-06</small>
+              <small>2023-09</small>
             </p>
-            <p className="col2_certificate_title">AWS Developer Essentials</p>
-            <p className="col2_certificates_issuer">LinkedIn</p>
+            <p className="col2_certificate_title">Red Teaming Learning Path</p>
+            <p className="col2_certificates_issuer">TryHackMe</p>
           </div>
           <div className="col2_certificates_subcontent">
             <p className="col2_certificates_date">
-              <small>2015-06</small>
+              <small>2020-12</small>
             </p>
-            <p className="col2_certificate_title">AWS Developer Essentials</p>
-            <p className="col2_certificates_issuer">LinkedIn</p>
+            <p className="col2_certificate_title">Python Skill Assessment</p>
+            <p className="col2_certificates_issuer">HackerRank</p>
           </div>
         </div>
       </div>

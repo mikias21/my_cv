@@ -1,26 +1,25 @@
 import "./WorkExperience.css";
 
-const WorkExperience = () => {
+const WorkExperience = ({ year, location, title, company, points }) => {
   return (
     <div className="work_exp">
       <div className="work_exp_date_loc">
         <p>
-          <small>2022 / 10 - 2023 / 05 </small>
+          <small>{year}</small>
         </p>
         <p>
-          <small>China, Shanghai</small>
+          <small>{location}</small>
         </p>
       </div>
       <div className="work_exp_title_company">
-        <p>Software Developer</p>
-        <p>Binary Touch Technologies LLP</p>
+        <p>{title}</p>
+        <p>{company}</p>
       </div>
       <div className="work_exp_content">
         <ul>
-          <li>This will be 1</li>
-          <li>This will be 2</li>
-          <li>This will be 3</li>
-          <li>This will be 4</li>
+          {points.map((point) => (
+            <li>{point}</li>
+          ))}
         </ul>
       </div>
     </div>

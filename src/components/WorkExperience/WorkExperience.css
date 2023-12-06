@@ -39,3 +39,7 @@
     list-style-type: square;
     margin-left: 1rem;
 }
+
+.work_exp_content ul li{
+    font-size: 12px;
+}

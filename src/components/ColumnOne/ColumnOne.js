@@ -10,6 +10,22 @@ import Education from "../Education/Education";
 // Css
 import "./ColumnOne.css";
 
+const points1 = [
+  "Worked as Backend Developer at Eastern Liaoning University.",
+  "Created a system where students can create account , get the scores, access semester transcript, contact their professor.",
+  " Integrated Full Authentication and Security together with the whole backend .",
+  "Penetration Testing",
+  "Tech stack: PHP, MySQl, Jquery, Ajax, ThinkPhp",
+];
+
+const points2 = [
+  "Internal Tool automation with python.",
+  "IT Infrastructure Management.",
+  "Software product development.",
+  "Penetration Testing",
+  "IOT Security Evaluation and UAS Security Evaluation",
+];
+
 const ColumnOne = ({ className }) => {
   return (
     <div className={`col1 ${className}`}>
@@ -23,12 +39,16 @@ const ColumnOne = ({ className }) => {
             <ul>
               <li>
                 <p>
-                  <small>Email: hello@email.com</small>
+                  <small>Email: mikiaszardoz0x00c@outlook.com</small>
                 </p>
               </li>
               <li>
                 <p>
-                  <small>Check out my Linkedin</small>
+                  <small>
+                    <a href="https://linkedin.com/in/mikias-berhanu-738ab31aa">
+                      Check out my Linkedin
+                    </a>
+                  </small>
                 </p>
               </li>
             </ul>
@@ -37,12 +57,20 @@ const ColumnOne = ({ className }) => {
             <ul>
               <li>
                 <p>
-                  <small>Check out my Github</small>
+                  <small>
+                    <a href="https://github.com/mikias21">
+                      Check out my Github
+                    </a>
+                  </small>
                 </p>
               </li>
               <li>
                 <p>
-                  <small>Check out my Portiflio</small>
+                  <small>
+                    <a href="https://mikias-portifolio.netlify.app/">
+                      Check out my Portiflio
+                    </a>
+                  </small>
                 </p>
               </li>
             </ul>
@@ -56,17 +84,18 @@ const ColumnOne = ({ className }) => {
           <p>Profile</p>
         </div>
         <div className="col1_profile_content">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            velit repudiandae praesentium cupiditate officiis deleniti ullam.
-            Architecto perspiciatis, tempora dicta possimus unde sint
-            accusantium maiores fuga necessitatibus illo sunt quibusdam.
-            Architecto perspiciatis, tempora dicta possimus unde sint
-            accusantium maiores fuga necessitatibus illo sunt quibusdam.
-            Architecto perspiciatis, tempora dicta possimus unde sint
-            accusantium maiores fuga necessitatibus illo sunt quibusdam.
-            Architecto perspiciatis, tempora dicta possimus unde sint
-            accusantium maiores fuga necessitatibus illo sunt quibusdam.
+          <p style={{ fontSize: "11px" }}>
+            I am Mekoya Mikias Berhanu, a seasoned cybersecurity professional
+            and Full stack developer, with a Master's degree in Software
+            Engineering, specializing in software security and vulnerability
+            analysis. My professional journey includes valuable experience as a
+            junior cybersecurity engineer and Infrastructure manager at Applus
+            Laboratories, where I actively addressed practical challenges in the
+            field. My research interests span IoT security, web application
+            security, AI model security, and network security. Committed to
+            continuous learning and staying abreast of industry trends, I bring
+            a blend of academic excellence and practical expertise to contribute
+            effectively to the dynamic landscape of cybersecurity.
           </p>
         </div>
       </div>
@@ -76,8 +105,23 @@ const ColumnOne = ({ className }) => {
           <MdWork className="col1_experience_title_icon" />
           <p>Work Experience</p>
         </div>
+        <div className="col1_work_content" style={{ marginBottom: "15px" }}>
+          <WorkExperience
+            year="2019 - 2020"
+            location="China, Liaoning"
+            title="BACKEND DEVELOPER"
+            company="EASTERN LIAONING UNIVERSITY"
+            points={points2}
+          />
+        </div>
         <div className="col1_work_content">
-          <WorkExperience />
+          <WorkExperience
+            year="2022 - 2023"
+            location="China, Shanghai"
+            title="CYBER-SECURITY ENGINEER"
+            company="Applus Laboratories LTD.,"
+            points={points1}
+          />
         </div>
       </div>
       {/* Education */}
@@ -87,18 +131,33 @@ const ColumnOne = ({ className }) => {
           <p>Education</p>
         </div>
         <div className="col1_edu_content">
-          <Education />
+          <Education
+            year="2017 - 2021"
+            location="China, Liaoning"
+            title="BSc in Computer Science"
+            university="EASTERN LIAONING UNIVERSITY"
+            gpa="CGPA - 4.17 / 4.5"
+          />
+        </div>
+        <div className="col1_edu_content" style={{ marginTop: "20px" }}>
+          <Education
+            year="2021 - 2024"
+            location="China, Xi'an"
+            title="Msc in Software Engineering"
+            university="NORTHWESTERN POLYTECHNICAL UNIVERSITY"
+            gpa="GPA 87.2/100"
+          />
         </div>
       </div>
       <div className="col1_soft_skills">
         <div className="col1_soft_skills_title">
           <AiOutlineExperiment className="col1_softskill_title_icon" />
-          <p>Soft Skills</p>
+          <p>Skills</p>
         </div>
         <div className="col1_soft_skills_content">
           <p>
-            Product development, Penetration Testing, DevOps Activities, Project
-            Managment, Testing and deployment
+            TDD, Agile Development, SCRUM, MVC Cloud Computing, Machine
+            Learning, REST API
           </p>
         </div>
       </div>
